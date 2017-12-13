@@ -7,12 +7,12 @@ default.tplの中身を書き換えて、
 を上書きします。
 
 また、global.inc.php 内の下記の表記を書き換えます。
-/**
- * Getting Started Config
- *  Shown to users in the 'Getting Started' section
- *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-getting-started
- **/
-$config['gettingstarted']['coinname'] = 'bitzeny';
-$config['gettingstarted']['coinurl'] = 'http://www.bitzeny.org';
-$config['gettingstarted']['stratumurl'] = '';
-$config['gettingstarted']['stratumport'] = '19333';
+  /**
+  * Getting Started Config
+  *  Shown to users in the 'Getting Started' section
+  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-getting-started
+  **/
+  $config['gettingstarted']['coinname'] = 'bitzeny';
+  $config['gettingstarted']['coinurl'] = 'http://www.bitzeny.org';
+  $config['gettingstarted']['stratumurl'] = '';
+  $config['gettingstarted']['stratumport'] = '19333';
